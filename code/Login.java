@@ -2,10 +2,13 @@ package code;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.ResultSet;
 
-public class Login extends JFrame {
+public class Login extends JFrame implements ActionListener {
 
-    JLabel lblusernmae, lblpassword, image1;
+    JLabel lblusername, lblpassword, image1;
     JTextField tfusername, tfpassword;
     JButton login;
 
@@ -14,9 +17,9 @@ public class Login extends JFrame {
         setLayout(null);
         getContentPane().setBackground(Color.white);
 
-        lblusernmae = new JLabel("Username:");
-        lblusernmae.setBounds(40,20,100,30);
-        add(lblusernmae);
+        lblusername = new JLabel("Username:");
+        lblusername.setBounds(40,20,100,30);
+        add(lblusername);
 
         tfusername = new JTextField();
         tfusername.setBounds(150, 20, 150,30);
@@ -34,6 +37,7 @@ public class Login extends JFrame {
         login.setBounds(150,140,150,30);
         login.setBackground(Color.BLACK);
         login.setForeground(Color.WHITE);
+        login.addActionListener(this);
         add(login);
 
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Icons/second.jpg"));
@@ -56,12 +60,20 @@ public class Login extends JFrame {
 
             String query = "select * from login where username =  '"+username+"' and password = '"+password+"'";
             ResultSet rs = c.s.executeQuery(query);
+            if(rs.next()) {
+                setVisible(false);
+                new Home();
+            } else {
+                JOptionPane.showMessageDialog(null, "Invalid credentials.");
+                setVisible(false);
+            }
         } catch(Exception e) {
 
         }
     }
 
     public static void main(String[] args) {
+
         new Login();
     }
 }
