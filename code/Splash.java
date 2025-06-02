@@ -2,9 +2,10 @@ package code;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class Splash extends JFrame {
-
+public class Splash extends JFrame implements ActionListener {
     JLabel heading, image;
     JButton continueButton;
 
@@ -30,6 +31,7 @@ public class Splash extends JFrame {
         continueButton.setBounds(400,400,300,70);
         continueButton.setBackground(Color.BLACK);
         continueButton.setForeground(Color.WHITE);
+        continueButton.addActionListener(this);
         image.add(continueButton);
 
         setSize(1170, 650);
@@ -52,6 +54,11 @@ public class Splash extends JFrame {
             }
         }
 
+    }
+
+    public void actionPerformed(ActionEvent ae) {
+        setVisible(false);
+        new Login();
     }
 
     public static void main(String[] args) {
