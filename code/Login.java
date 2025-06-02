@@ -48,6 +48,19 @@ public class Login extends JFrame {
         setVisible(true);
     }
 
+    public void actionPerformed(ActionEvent ae) {
+        try {
+            Conn c = new Conn();
+            String username = tfusername.getText();
+            String password = tfpassword.getText();
+
+            String query = "select * from login where username =  '"+username+"' and password = '"+password+"'";
+            ResultSet rs = c.s.executeQuery(query);
+        } catch(Exception e) {
+
+        }
+    }
+
     public static void main(String[] args) {
         new Login();
     }
