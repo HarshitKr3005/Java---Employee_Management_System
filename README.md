@@ -61,38 +61,26 @@ CREATE TABLE employee (
 
 ## 🖼️ Screenshots
 
-### 📝 Login Page
-![image alt](https://github.com/HarshitKr3005/Java---Bank_Management_System/blob/afaf9ea96dc82ff4cf40309a20f621da580085bb/Screenshots/Login%20Page.png)
+### 📝 Splash Page
+![image alt](https://github.com/HarshitKr3005/Java---Employee_Management_System/blob/58e47f67e306531e259c31f4ff87e8cb48af6912/Screenshots/Splash%20Page.png)
 
-### 📝 Signup Page 1
-![image alt](https://github.com/HarshitKr3005/Java---Bank_Management_System/blob/bcff654ad90659ba69529a77c9d33cefa98bbab8/Screenshots/Signup%20Page%201.png)
+### 📝 Login Page 
+![image alt](https://github.com/HarshitKr3005/Java---Employee_Management_System/blob/58e47f67e306531e259c31f4ff87e8cb48af6912/Screenshots/Login%20Page.png)
 
-### 📝 Signup Page 2
-![image alt](https://github.com/HarshitKr3005/Java---Bank_Management_System/blob/1452741ecf60b44a7c670fd1d60847314e5bfcd0/Screenshots/Signup%20Page%202.png)
+### 📝 Home Page
+![image alt](https://github.com/HarshitKr3005/Java---Employee_Management_System/blob/58e47f67e306531e259c31f4ff87e8cb48af6912/Screenshots/Home%20Page.png)
 
-### 📝 Signup Page 3
-![image alt](https://github.com/HarshitKr3005/Java---Bank_Management_System/blob/1452741ecf60b44a7c670fd1d60847314e5bfcd0/Screenshots/Signup%20Page%203.png)
+### 📝 Add Employee Page
+![image alt](https://github.com/HarshitKr3005/Java---Employee_Management_System/blob/58e47f67e306531e259c31f4ff87e8cb48af6912/Screenshots/Add%20Employee%20Page.png)
 
-### 📝 ATM Page
-![image alt](https://github.com/HarshitKr3005/Java---Bank_Management_System/blob/1452741ecf60b44a7c670fd1d60847314e5bfcd0/Screenshots/ATM%20Page.png)
+### 📝 View Employee Page
+![image alt](https://github.com/HarshitKr3005/Java---Employee_Management_System/blob/58e47f67e306531e259c31f4ff87e8cb48af6912/Screenshots/View%20Employee%20Page.png)
 
-### 📝 Deposit Page
-![image alt](https://github.com/HarshitKr3005/Java---Bank_Management_System/blob/1452741ecf60b44a7c670fd1d60847314e5bfcd0/Screenshots/Deposit%20Page.png)
+### 📝 Update Employee Page
+![image alt](https://github.com/HarshitKr3005/Java---Employee_Management_System/blob/58e47f67e306531e259c31f4ff87e8cb48af6912/Screenshots/Update%20Employee%20Page.png)
 
-### 📝 Withdrawal Page
-![image alt](https://github.com/HarshitKr3005/Java---Bank_Management_System/blob/1452741ecf60b44a7c670fd1d60847314e5bfcd0/Screenshots/Withdraw%20Page.png)
-
-### 📝 Fast Cash Page
-![image alt](https://github.com/HarshitKr3005/Java---Bank_Management_System/blob/1452741ecf60b44a7c670fd1d60847314e5bfcd0/Screenshots/Fast%20Cash.png)
-
-### 📝 Mini Statement Page
-![image alt](https://github.com/HarshitKr3005/Java---Bank_Management_System/blob/1452741ecf60b44a7c670fd1d60847314e5bfcd0/Screenshots/Mini%20Statement.png)
-
-### 📝 PIN Change Page
-![image alt](https://github.com/HarshitKr3005/Java---Bank_Management_System/blob/1452741ecf60b44a7c670fd1d60847314e5bfcd0/Screenshots/PIN%20Change.png)
-
-### 📝 Balance Enquiry Page
-![image alt](https://github.com/HarshitKr3005/Java---Bank_Management_System/blob/1452741ecf60b44a7c670fd1d60847314e5bfcd0/Screenshots/Balance%20Enquiry.png)
+### 📝 Remove Employee Page
+![image alt](https://github.com/HarshitKr3005/Java---Employee_Management_System/blob/58e47f67e306531e259c31f4ff87e8cb48af6912/Screenshots/Remove%20Employee%20Page.png)
 
 ## 🙋‍♂️ Author
 
