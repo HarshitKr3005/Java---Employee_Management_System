@@ -15,6 +15,7 @@ public class ViewEmployee extends JFrame implements ActionListener {
     Choice cemployeeId;
     JButton search, print, update, back;
 
+
     ViewEmployee() {
 
         setSize(900,700);
@@ -97,7 +98,8 @@ public class ViewEmployee extends JFrame implements ActionListener {
             }
 
         } else if(ae.getSource() == update) {
-
+            setVisible(false);
+            new UpdateEmployee(cemployeeId.getSelectedItem());
         } else {
             setVisible(false);
             new Home();
