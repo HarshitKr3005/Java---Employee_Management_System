@@ -85,5 +85,5 @@ CREATE TABLE employee (
 ## 🙋‍♂️ Author
 
 **Harshit Kumar**  
-📧 Email: harshitkr3005@gmail.com  
+📧 Email: harshitkr3002@gmail.com  
 🌐 GitHub: [HarshitKr3005](https://github.com/HarshitKr3005)
